@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contato - Mar de Criação</title>
+    <meta name="description" content="Entre em contato com a Mar de Criação. Vamos tomar um café e falar sobre como transformar sua presença digital em resultados reais.">
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+    <!-- Header/Navigation -->
+    <header class="header">
+        <nav class="nav">
+            <div class="nav-container">
+                <div class="nav-logo">
+                    <img src="logo.jpeg" alt="Mar de Criação">
+                </div>
+                <ul class="nav-menu">
+                    <li><a href="index.html" class="nav-link">Início</a></li>
+                    <li><a href="sobre.html" class="nav-link">Sobre</a></li>
+                    <li><a href="servicos.html" class="nav-link">Serviços e Planos</a></li>
+                    <li><a href="como-funciona.html" class="nav-link">Como Funciona</a></li>
+                    <li><a href="contato.html" class="nav-link">Contato</a></li>
+                </ul>
+                <div class="nav-toggle">
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="page-hero">
+        <div class="container">
+            <h1 class="page-hero-title">Vamos tomar um café e falar sobre o seu negócio?</h1>
+            <p class="page-hero-subtitle">Preencha o formulário abaixo ou me chame no WhatsApp. Estou pronta para ouvir sobre seus desafios e desenhar uma estratégia digital que traga resultados reais para sua empresa em Recife.</p>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section class="contact">
+        <div class="container">
+            <div class="contact-grid">
+                <!-- Contact Form -->
+                <div class="contact-form-container">
+                    <h2>Envie sua mensagem</h2>
+                    <form id="contact-form" class="contact-form">
+                        <div class="form-group">
+                            <label for="nome">Nome *</label>
+                            <input type="text" id="nome" name="nome" required>
+                        </div>
+                        
+                        <div class="form-group">
+                            <label for="email">E-mail *</label>
+                            <input type="email" id="email" name="email" required>
+                        </div>
+                        
+                        <div class="form-group">
+                            <label for="empresa">Nome da Empresa *</label>
+                            <input type="text" id="empresa" name="empresa" required>
+                        </div>
+                        
+                        <div class="form-group">
+                            <label for="whatsapp">WhatsApp *</label>
+                            <input type="tel" id="whatsapp" name="whatsapp" required>
+                        </div>
+                        
+                        <div class="form-group">
+                            <label for="mensagem">Mensagem *</label>
+                            <textarea id="mensagem" name="mensagem" rows="5" required placeholder="Conte-me sobre seu negócio e seus objetivos de marketing digital..."></textarea>
+                        </div>
+                        
+                        <button type="submit" class="btn btn-primary">Enviar Mensagem</button>
+                    </form>
+                </div>
+
+                <!-- Contact Information -->
+                <div class="contact-info">
+                    <h2>Informações de Contato</h2>
+                    
+                    <div class="contact-item">
+                        <div class="contact-icon">
+                            <i class="fab fa-whatsapp"></i>
+                        </div>
+                        <div class="contact-details">
+                            <h3>WhatsApp</h3>
+                            <p><a href="https://wa.me/5581999999999" target="_blank">(81) 9XXXX-XXXX</a></p>
+                            <small>Resposta rápida para dúvidas urgentes</small>
+                        </div>
+                    </div>
+                    
+                    <div class="contact-item">
+                        <div class="contact-icon">
+                            <i class="fas fa-envelope"></i>
+                        </div>
+                        <div class="contact-details">
+                            <h3>E-mail</h3>
+                            <p><a href="mailto:contato@mardecriacao.com.br">contato@mardecriacao.com.br</a></p>
+                            <small>Para propostas e comunicações oficiais</small>
+                        </div>
+                    </div>
+                    
+                    <div class="contact-item">
+                        <div class="contact-icon">
+                            <i class="fab fa-instagram"></i>
+                        </div>
+                        <div class="contact-details">
+                            <h3>Instagram</h3>
+                            <p><a href="https://instagram.com/mardecriacao" target="_blank">@mardecriacao</a></p>
+                            <small>Acompanhe nosso trabalho e cases de sucesso</small>
+                        </div>
+                    </div>
+                    
+                    <div class="contact-item">
+                        <div class="contact-icon">
+                            <i class="fas fa-map-marker-alt"></i>
+                        </div>
+                        <div class="contact-details">
+                            <h3>Localização</h3>
+                            <p>Recife, Pernambuco</p>
+                            <small>Atendimento presencial e online</small>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- FAQ Section -->
+    <section class="contact-faq">
+        <div class="container">
+            <h2 class="section-title">Perguntas Frequentes sobre Contato</h2>
+            <div class="faq-container">
+                <div class="faq-item">
+                    <div class="faq-question">
+                        <h3>Qual o melhor horário para entrar em contato?</h3>
+                        <i class="fas fa-chevron-down"></i>
+                    </div>
+                    <div class="faq-answer">
+                        <p>Estou disponível de segunda a sexta, das 9h às 18h. Para WhatsApp, respondo até às 20h em dias úteis. Reuniões podem ser agendadas em horários flexíveis.</p>
+                    </div>
+                </div>
+
+                <div class="faq-item">
+                    <div class="faq-question">
+                        <h3>Como funciona a primeira conversa?</h3>
+                        <i class="fas fa-chevron-down"></i>
+                    </div>
+                    <div class="faq-answer">
+                        <p>A primeira conversa é gratuita e sem compromisso. Vamos falar sobre seu negócio, seus objetivos e como posso ajudar. Dura aproximadamente 30-45 minutos.</p>
+                    </div>
+                </div>
+
+                <div class="faq-item">
+                    <div class="faq-question">
+                        <h3>Vocês atendem apenas em Recife?</h3>
+                        <i class="fas fa-chevron-down"></i>
+                    </div>
+                    <div class="faq-answer">
+                        <p>Embora seja especializada no mercado de Recife, posso atender clientes de outras cidades de Pernambuco e região. O conhecimento local é um diferencial, mas a estratégia digital funciona em qualquer lugar.</p>
+                    </div>
+                </div>
+
+                <div class="faq-item">
+                    <div class="faq-question">
+                        <h3>Quanto tempo leva para começar o trabalho?</h3>
+                        <i class="fas fa-chevron-down"></i>
+                    </div>
+                    <div class="faq-answer">
+                        <p>Após a aprovação da proposta, começamos em até 5 dias úteis. O onboarding e briefing inicial acontecem na primeira semana, e o conteúdo começa a ser publicado na segunda semana.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CTA Section -->
+    <section class="cta-section">
+        <div class="container">
+            <h2 class="section-title">Não perca mais tempo com redes sociais que não convertem</h2>
+            <p class="cta-text">Vamos transformar sua presença digital em um motor de crescimento real para seu negócio.</p>
+            <div class="cta-buttons">
+                <a href="https://wa.me/5581999999999" class="btn btn-primary" target="_blank">
+                    <i class="fab fa-whatsapp"></i> Falar no WhatsApp
+                </a>
+                <a href="servicos.html" class="btn btn-secondary">Ver Planos</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h3>Mar de Criação</h3>
+                    <p>Transformando presença digital em resultados reais para negócios em Recife.</p>
+                </div>
+                <div class="footer-section">
+                    <h4>Contato</h4>
+                    <p><i class="fab fa-whatsapp"></i> (81) 9XXXX-XXXX</p>
+                    <p><i class="fas fa-envelope"></i> contato@mardecriacao.com.br</p>
+                    <p><i class="fab fa-instagram"></i> @mardecriacao</p>
+                </div>
+                <div class="footer-section">
+                    <h4>Links</h4>
+                    <ul>
+                        <li><a href="index.html">Início</a></li>
+                        <li><a href="sobre.html">Sobre</a></li>
+                        <li><a href="servicos.html">Serviços</a></li>
+                        <li><a href="contato.html">Contato</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2024 Mar de Criação. Todos os direitos reservados.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html> 
